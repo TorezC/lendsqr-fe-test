@@ -1,0 +1,20 @@
+$white: #fff;
+$darkBlueColor: #213F7D;
+$grayColor: #545F7D;
+$lightgrayColor: rgba(84, 95, 125, 0.15);
+$lightBlueColor: #39CDCC;
+
+@mixin flexAC {
+    display: flex;
+    align-items: center;
+}
+
+@mixin flexDC {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexJC {
+    display: flex;
+    justify-content: center;
+}
