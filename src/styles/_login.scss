@@ -8,7 +8,7 @@
 
     .login-img {
       flex: 1;
-      
+
       img {
         max-width: 100%;
         height: auto;
@@ -19,7 +19,7 @@
       @include flexDC;
       box-shadow: 0px 15px 90px 0px rgba(0, 0, 0, 0.03);
       flex: 1;
-      padding: 1rem 1.5rem;
+      padding: 3rem 1.5rem;
 
       h1 {
         color: $darkBlueColor;
@@ -44,15 +44,14 @@
             width: 100%;
             border-radius: 5px;
             border: 2px solid $lightgrayColor;
-            height: 30px;
+            height: 50px;
             margin-top: 15px;
-            padding: 10px;
-            padding-right: 0;
+            padding: 20px 10px;
             font-size: 15px;
           }
           .show {
             position: absolute;
-            right: 0;
+            right: 10px;
             top: 31px;
             color: $lightBlueColor;
             font-size: 12px;
@@ -64,9 +63,9 @@
           position: relative;
         }
         .forgot {
-          text-decoration: none;
           color: $lightBlueColor;
           margin: 20px 0;
+          font-weight: 600;
         }
         .login-btn {
           background-color: $lightBlueColor;
