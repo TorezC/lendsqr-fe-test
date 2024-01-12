@@ -1,5 +1,6 @@
 $white: #fff;
 $darkBlueColor: #213F7D;
+$darkBlueOpacityColor: rgba(33, 63, 125, 0.2);
 $grayColor: #545F7D;
 $lightgrayColor: rgba(84, 95, 125, 0.15);
 $lightBlueColor: #39CDCC;
@@ -14,7 +15,7 @@ $lightBlueColor: #39CDCC;
     flex-direction: column;
 }
 
-@mixin flexJC {
+@mixin flexJC ($content){
     display: flex;
-    justify-content: center;
+    justify-content: $content;
 }
