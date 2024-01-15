@@ -1,4 +1,38 @@
-# Getting Started with Create React App
+Lendsqr Front-End Engineering Test
+
+Project Description
+This project was completed as an assessment test for the role of Frontend Engineer at Lendsqr
+
+The assessment's goal is to create the four screens in this Figma design and integrate with the following mock api endpoints
+
+https://6270020422c706a0ae70b72c.mockapi.io/lendsqr/api/v1/users
+
+Technologies
+These technologies were used as per strict requirements of the test:
+
+Typescript
+React
+SCSS
+Other technologies I used:
+
+React Router dom for navigation
+Axios for asynchronous data fetching.
+HeadlessUI for popovers and menu dropdowns.[link](https://headlessui.com) 
+
+File paths to important sections of code
+
+Login page
+Dashboard 
+Users page
+User Details page
+
+My Results
+Login page
+Dashboard and Users page
+
+
+
+# guides on React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
