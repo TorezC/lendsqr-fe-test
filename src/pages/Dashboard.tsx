@@ -1,30 +1,34 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
+import React from "react";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import { usersData } from "../data";
+import UserTable from "../components/UserTable";
 
 const Dashboard = () => {
   return (
-    <div className='dashboard-container'>
-      <Navbar/>
+    <div className="dashboard-container">
+      <Navbar />
       <div className="dashboard">
-        <Sidebar/>
+        <Sidebar />
         <div className="dashboard-content">
-          <p className="dash-head">
-            Users
-          </p>
+          <p className="dash-head">Users</p>
           <div className="user-info-container">
-            <div className="userinfo">
-              <div className="user-icon"></div>
-              <p className="userinfo-title"></p>
-              <p className="userinfo-num"></p>
-            </div>
+            {
+              usersData.map((item, index) => (
 
+              <div className="userinfo" key={index}>
+                <img src={item.icon} alt={item.name} />
+                <p className="userinfo-title">{item.name}</p>
+                <p className="userinfo-num">{item.num.toLocaleString()}</p>
+              </div>
+              ))
+            }
           </div>
-          
+          <UserTable/>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;

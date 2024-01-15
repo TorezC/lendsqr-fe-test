@@ -61,10 +61,10 @@ export const usersData = [
   { name: `USERS  WITH SAVINGS`, icon: icon4, num: 102453 },
 ];
 
-export const tableHeader = [
-  `organization`,
-  `Username`,
-  `Phone number`,
-  `Date joined`,
-  `Status`,
+export const userTableHeader = [
+  `ORGANIZATION`,
+  `USERNAME`,
+  `PHONE NUMBER`,
+  `DATE JOINED`,
+  `STATUS`,
 ];
